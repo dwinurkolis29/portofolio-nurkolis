@@ -98,12 +98,12 @@ nav {
 @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.3; } }
 
 h1 {
-  font-family: 'Instrument Serif', serif;
-  font-size: clamp(48px, 9vw, 76px);
-  line-height: 1.02; color: var(--text);
-  margin-bottom: 6px; font-weight: 400;
+    font-family: 'Geist', sans-serif;
+    font-size: clamp(48px, 9vw, 76px);
+    line-height: 1.02; color: var(--text);
+    margin-bottom: 6px; font-weight: 700;
 }
-h1 em { color: var(--teal-2); font-style: italic; }
+h1 em { color: var(--teal-2); font-style: normal; }
 
 .hero-role {
   font-family: 'Geist Mono', monospace; font-size: 13px;
@@ -151,8 +151,8 @@ section { padding: 72px 0; }
   margin-bottom: 8px;
 }
 .section-title {
-  font-family: 'Instrument Serif', serif; font-size: 32px;
-  font-weight: 400; color: var(--text); margin-bottom: 36px; line-height: 1.15;
+    font-family: 'Geist', sans-serif; font-size: 32px;
+    font-weight: 700; color: var(--text); margin-bottom: 36px; line-height: 1.15;
 }
 .sep { border: none; border-top: 0.5px solid var(--border); }
 
